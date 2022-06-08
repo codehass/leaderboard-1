@@ -7,11 +7,12 @@ $border-check: 1px solid crimson;
   margin: 0;
   padding: 0;
   font-family: 'Fira Sans', sans-serif;
+  color: white;
 }
 
 body {
-  background-color: #a40606;
-  background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+  background-color: #537895;
+  background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -66,6 +67,7 @@ main {
         margin-left: 1rem;
         padding: 0.5rem;
         font-size: 1rem;
+        background-color: #5f6769;
 
         @include box-shadow();
       }
@@ -88,7 +90,7 @@ main {
         }
 
         & li:nth-child(even) {
-          background-color: lightgray;
+          background-color: #5f6769;
         }
       }
     }
@@ -120,6 +122,7 @@ main {
       padding: 0.5rem;
       float: right;
       font-size: 1rem;
+      background-color: #5f6769;
 
       @include box-shadow();
     }
@@ -131,12 +134,12 @@ footer {
   position: fixed;
   bottom: 0;
   text-align: center;
-  background-color: #dfe6e9;
+  background-color: black;
   padding: 0.5rem;
 
   a {
     text-decoration: none;
-    color: #101010;
+    color: white;
   }
 }
 
